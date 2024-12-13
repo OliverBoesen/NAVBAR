@@ -1,0 +1,89 @@
+.forside-intro-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forside-intro-venstre {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.forside-intro-venstre h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "adelle", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 2rem;
+}
+
+.forside-intro-venstre p {
+  margin-left: 2rem;
+}
+
+.forside-intro-hojre {
+  max-width: 100%;
+}
+
+.forside-intro-hojre img {
+  display: block;
+  margin: 1rem auto 0 auto;
+  width: 500px;
+  overflow: auto;
+  z-index: 1;
+  transform: translateY(50px);
+  border-radius: 15px 0 15px 0;
+}
+
+.hudcancer-divider {
+  border: 0;
+  height: 2px;
+  background-color: #e0a619;
+  margin: 20px 0;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.forside-stats-container {
+  background-color: white;
+  z-index: -1;
+}
+
+.Forside-stats-content {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding: 7rem 0 3rem 0;
+}
+
+.Forside-stats-content h1 {
+  text-align: center;
+  color: #e0a619;
+  font-size: 4rem;
+  text-decoration: none;
+  text-transform: none;
+  font-family: "adelle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Forside-stats-content p {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Forside-kildetekst {
+  padding-bottom: 5rem;
+}
+
+.Forside-kildetekst p {
+  font-size: 0.8rem;
+  text-align: end;
+  margin-right: 10rem;
+}
+
+.Forside-kildetekst a {
+  color: #e0a619;
+}
